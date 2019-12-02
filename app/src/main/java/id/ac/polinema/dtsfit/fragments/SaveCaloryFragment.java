@@ -99,8 +99,6 @@ public class SaveCaloryFragment extends Fragment {
                     calory = new Calory();
                 }
                 // TODO: Ambil nilai calory yang didapatkan dari tampilan
-
-
                 mListener.onSaveMenuClicked(getView(), calory);
             }
         }
